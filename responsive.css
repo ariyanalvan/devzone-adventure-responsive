@@ -1,0 +1,107 @@
+/* for responsive design  */
+@media (max-width: 576px) {
+  /* .container {
+    width: 540px;
+  } */
+  .eventlist {
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .eventcard {
+    width: 100%;
+    text-align: center;
+  }
+  .colum {
+    flex-basis:content;
+  }
+  nav{
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul {
+    padding: 0px 5px;
+    font-size: 15px;
+}
+.hero h1 ,.event h1,h1{
+  font-size: 30px;
+  
+}
+.hero span{
+  width: 250px;
+}
+.event span {
+  width: 250px;
+}
+.flex {
+  padding: 10px;
+}
+.tourMain {
+  flex-direction: column;
+}
+.touritems {
+    /* justify-content: center;
+    flex-direction: column; */
+    padding: 20px;
+}
+img.imag1 {
+  padding: 20px 0;
+}
+}
+/* for responsive design  */
+@media screen and (min-width:576px) and (max-width: 960px) {
+  /* .container {
+    width: 740px;
+  } */
+  .eventlist {
+    flex-direction: row;
+  }
+}
+/* for responsive design  */
+@media (min-width: 992px) {
+  .container {
+    width: 940px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+  .hero h1 {
+    font-size: 60px;
+  }
+  .eventlist {
+    flex-direction: row;
+  }
+}
+/* for responsive design  */
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+  .eventlist {
+   
+    flex-direction: row;
+  }
+  .eventcard {
+    width: 50%;
+    text-align: center;
+  }
+  .colum {
+    flex-basis:50%;
+  }
+}
+/* for responsive design  */
+@media (min-width: 1400px) {
+  .container {
+    width: 1340px;
+  }
+  .eventlist {
+    flex-direction: row;
+  }
+  .colum {
+    flex-basis:50%;
+  }
+  
+}

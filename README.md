@@ -1,3 +1,1 @@
-# outdoor-adventure
-# outdoor-adventure
-# outdoor-adventure
+# outdoor-adventure-responsive version
